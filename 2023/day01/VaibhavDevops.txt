@@ -1,2 +1,47 @@
-DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's 
-ability to deliver applications and services at high velocity". The main goal of DEVOPS is to shorten cycle time right from starting the release pipeline to deploy a change of even one line of code or the configuration
+What is DevOps ?
+
+Basically DevOps is grouping a multiskilled set to start a new ideology or structure in the organization.
+
+DevOps is a set of practices that combines software development and IT operations. It aims to shorten the software development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development.
+
+Its cross functional combination of terms like development and operations
+
+
+What is Automation ?
+Automation is the use of technology to perform tasks without human intervention.
+
+The goal of automation is to increase efficiency and productivity by reducing the need for human labor.
+
+Automation can be achieved through the use of a variety of technologies, including robots, artificial intelligence, and computer software.
+
+
+What is scaling ?
+Scaling refers to the ability to increase or decrease IT resources as needed to meet changing demand. DevOps practices can help organizations scale their software systems more easily and reliably while maintaining quality and stability.
+
+There are two types of scaling:
+
+"Vertical scaling" refers to the process of increasing the capacity of a single server or system by adding more resources such as CPU, memory, or storage.
+
+This can be done by upgrading the hardware on the existing server, or by adding additional servers that are connected to the main server in some way.
+
+"Horizontal scaling" refers to the process of increasing capacity by adding more servers or systems to a network.
+
+This can be done by adding new servers that are independent of the existing ones, or by using load balancers to distribute traffic across multiple servers.
+
+
+What is Infrastructure ?
+Infrastructure refers to the underlying hardware and software resources that are required to support the development, testing, and deployment of software applications.
+
+This can include servers, networks, storage devices, and other hardware, as well as the tools and frameworks that are used to manage and automate these resources.
+
+
+Why DevOps is important ?
+
+DevOps aims to bridge the gap between development and operations teams, and to automate many of the processes involved in software delivery.
+
+Their are some advantages with the DevOps methodlogy ::
+
+Faster delivery of software: By automating the software development and delivery process, DevOps can help organizations to release new features and updates more quickly.
+Improved collaboration: DevOps promotes closer collaboration between development and operations teams, which can help to reduce conflicts and improve communication.
+Higher quality software: By implementing continuous integration and testing, DevOps can help to identify and fix errors and defects more quickly, resulting in higher quality software.
+Greater agility: DevOps enables organizations to more easily adapt to changing requirements and priorities, as they can quickly make and deploy changes to their software.
