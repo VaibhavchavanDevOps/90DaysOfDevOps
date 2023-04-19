@@ -1,0 +1,2 @@
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's 
+ability to deliver applications and services at high velocity". The main goal of DEVOPS is to shorten cycle time right from starting the release pipeline to deploy a change of even one line of code or the configuration
