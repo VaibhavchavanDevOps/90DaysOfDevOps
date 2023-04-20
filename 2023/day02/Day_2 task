@@ -1,0 +1,12 @@
+The Basics linux commands :
+
+pwd - < print working directory > Gives the present working directory 
+
+ls - < list > I will list all the files and directories in directory.
+
+ls -la - List all the files and directories in long format including hidden files 
+
+
+Create a nested directory A/B/C/D/E :
+
+=  mkdir -p A/B/C/D
