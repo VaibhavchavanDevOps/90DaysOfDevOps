@@ -1,5 +1,5 @@
 
-What is Kernel?
+Q1) What is Kernel?
 The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It is also known as the heart of the operating system.
 
 The functions of Kernel :
@@ -14,18 +14,19 @@ The functions of Kernel :
 
 
 
-What is a shell?
+Q2) What is a shell?
 A shell is a special user program that provides an interface for users to use operating system services. Shell accepts human-readable commands from a user and converts them into something which the kernel can understand. It is a command language interpreter that executes commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
 
 
 
-What is Linux Shell Scripting?
+Q3) What is Linux Shell Scripting?
 A shell script is a computer program designed to be run by a Linux shell, a command-line interpreter. The various dialects of shell script are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
 
 Task :
 
 
 
+1)
 What is #!/bin/bash? can we write #!/bin/sh as well?
 
 The "shebang" or "hashbang" instruction #!/bin/bash tells the Unix/Linux shell which interpreter to use for running a script. #!/bin/sh uses the default shell interpreter instead. While sh is the original Unix shell and is available on most Unix and Linux systems, it may differ from Bash.
@@ -38,6 +39,7 @@ On the other hand, when #!/bin/sh is used as the shebang, this would instruct th
 
 
 
+2)
 Write a Shell Script that prints I will complete #90DaysOofDevOps challenge
 
 $ vim task1.sh
@@ -50,7 +52,7 @@ $ sh task1.sh
 
 
 
-
+3)
 Write a Shell Script to take user input, input from arguments, and print the variables.
 
 $ vim task2.sh
@@ -71,7 +73,7 @@ Vaibhav
 your name is Vaibhav
 
 
-
+4)
 Write an Example of If else in Shell Scripting by comparing 2 numbers
 
 Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/devops
