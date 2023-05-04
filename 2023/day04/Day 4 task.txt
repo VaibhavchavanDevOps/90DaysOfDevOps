@@ -1,0 +1,108 @@
+
+What is Kernel?
+The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It is also known as the heart of the operating system.
+
+The functions of Kernel :
+
+- Device management
+
+- Memory management
+
+- Process management
+
+- Handling system calls
+
+
+
+What is a shell?
+A shell is a special user program that provides an interface for users to use operating system services. Shell accepts human-readable commands from a user and converts them into something which the kernel can understand. It is a command language interpreter that executes commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
+
+
+
+What is Linux Shell Scripting?
+A shell script is a computer program designed to be run by a Linux shell, a command-line interpreter. The various dialects of shell script are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
+
+Task :
+
+
+
+What is #!/bin/bash? can we write #!/bin/sh as well?
+
+The "shebang" or "hashbang" instruction #!/bin/bash tells the Unix/Linux shell which interpreter to use for running a script. #!/bin/sh uses the default shell interpreter instead. While sh is the original Unix shell and is available on most Unix and Linux systems, it may differ from Bash.
+
+The Difference between #!/bin/bash and #!/bin/sh:
+
+When writing scripts, the shebang, #!/bin/bash, tells the operating system to use bash as the command interpreter. The system shell used to execute system scripts can differ between operating systems, but it is often bash.
+
+On the other hand, when #!/bin/sh is used as the shebang, this would instruct the shell to use the default shell interpreter, which may be different from Bash. sh is the original Unix shell and is generally available on all Unix and Linux systems.
+
+
+
+Write a Shell Script that prints I will complete #90DaysOofDevOps challenge
+
+$ vim task1.sh
+
+#!/bin/bash
+echo " I will complete #90DaysofDevOps challenge "
+
+$ sh task1.sh
+ I will complete #90DaysofDevOps challenge
+
+
+
+
+Write a Shell Script to take user input, input from arguments, and print the variables.
+
+$ vim task2.sh
+
+Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/devops
+$ cat task2.sh
+#!/bin/bash
+ echo "what is your nanme ?"
+
+ read name
+
+ echo "your name is $name"
+
+Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/devops
+$ sh task2.sh
+what is your nanme ?
+Vaibhav
+your name is Vaibhav
+
+
+
+Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/devops
+$ vim task3.sh
+#!/bin/bash
+
+ echo " enter the first number "
+
+ read num2
+
+
+ echo " enter the second number "
+
+ read num2
+
+ if[ $num1 -gt $num2 ];  then
+        echo"$num1 is greater than $num2"
+ elif [ $num1 -lt $num2 ];  then
+        echo"$num1 is less than $num2"
+
+ else
+        echo"$num1 is equal to $num2"
+fi
+
+~
+~
+
+Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/devops
+$ sh task3.sh
+ enter the first number
+4
+ enter the second number
+9
+4 is less than
