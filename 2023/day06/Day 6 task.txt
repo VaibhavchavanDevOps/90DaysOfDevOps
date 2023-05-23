@@ -1,0 +1,79 @@
+Create a simple file and do ls -ltr.
+
+
+Sarvadnya@DESKTOP-108TPA2 MINGW64 ~/desktop
+$ ls -ltr
+total 84586
+-rw-r--r-- 1 Sarvadnya 197609      282 Jul 15  2022  desktop.ini
+-rwxr-xr-x 1 Sarvadnya 197609     1044 Jul 15  2022  Winamp.lnk*
+drwxr-xr-x 1 Sarvadnya 197609        0 Sep 23  2022  RVC/
+-rw-r--r-- 1 Sarvadnya 197609 83265630 Dec 24 10:11 '24-12-22 Vel.webm'
+-rw-r--r-- 1 Sarvadnya 197609   564742 Dec 28 17:17 'Fresher Resume For DevOps.pdf'
+-rw-r--r-- 1 Sarvadnya 197609    41984 Dec 28 17:42  Vaibhav_Chavan_DevOps_Resume.doc
+-rw-r--r-- 1 Sarvadnya 197609    84013 Jan  4 19:13  1632918192180.jpg
+-rw-r--r-- 1 Sarvadnya 197609      162 Jan  6 15:35 '~$ibhav_Chavan_DevOps_Resume.doc'
+
+
+
+Read, write, execute and –
+
+The ‘r’ means you can “read” the file’s contents.
+
+The ‘w’ means you can “write”, or modify the file’s contents.
+
+The ‘x’ means you can “execute” the file. This permission is given only if the file is a program.
+
+If any of the “rwx” characters are replaced by a ‘-‘, then that permission has been revoked.
+
+If the permission is given as 777 as per the below mode, then the user will have full access to the folder or file. This is not advisable if the user is not a root user.
+
+Symbolic                                    Mode                                             Absolute Mode
+
+r                                          -read                                                 4
+
+w                                          -write                                                2
+
+x                                          -execute                                              1
+
+(-)                                         Null                                                 0
+
+
+Each of the three permissions are assigned to three defined categories of users. The categories are:
+
+ "owner"   —   The owner of the file or  application.
+
+"chown" is used to change the ownership permission of a file or directory.
+
+ "group"   —   The group that owns the file or application.
+
+"chgrp" is used to change the gropu permission of a file or directory.
+
+ others  —   All users with access to the system. (outised the users are in a group)
+
+ "chmod" is used to change the other users permissions of a file or directory.
+
+
+
+
+ACL
+
+ACL stands for Access Control Lists.
+
+Think of a scenario in which a particular user is not a member of a group created by you but still, wants to give some read or write access, how can you do it without making the user a member of the group, here comes in picture Access Control Lists, ACL helps us to do this trick.
+
+ACLs are used to make a flexible permission mechanism in Linux.
+
+
+getfacl is the command to show what are permission assigned to any file/folder.
+
+getfacl <file or foldername>
+
+
+setfacl is the command used to grant permission to any file/folder.
+
+setfacl [options] [-m permissions] [-x permissions] [file/directory name]
+
+
+setfacl -m "u:user:permissions" /path/to/file
+
+setfacl -m "g:group:permissions" /path/to/file
